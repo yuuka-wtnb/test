@@ -8,7 +8,6 @@ function HomePage() {
 
   return (
     <Fragment>
-      <EventsSeach></EventsSeach>
       <EventList items={featuredEvents}></EventList>
     </Fragment>
   );
